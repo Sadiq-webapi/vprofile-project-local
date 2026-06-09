@@ -1,0 +1,443 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.visualpathit:vprofile >----------------------
+[INFO] Building Visualpathit VProfile Webapp 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ vprofile ---
+[INFO] Deleting E:\vprofile-project\target
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (prepare-agent) @ vprofile ---
+[INFO] argLine set to -javaagent:C:\\Users\\moham\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.11\\org.jacoco.agent-0.8.11-runtime.jar=destfile=E:\\vprofile-project\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ vprofile ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ vprofile ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 25 source files with javac [debug target 1.8] to target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] source value 8 is obsolete and will be removed in a future release
+[WARNING] target value 8 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 4 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[6,23] package org.apache.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[7,39] package org.elasticsearch.action.delete does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[8,39] package org.elasticsearch.action.delete does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[9,36] package org.elasticsearch.action.get does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[10,36] package org.elasticsearch.action.get does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[11,38] package org.elasticsearch.action.index does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[12,38] package org.elasticsearch.action.index does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[13,39] package org.elasticsearch.action.update does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[14,39] package org.elasticsearch.action.update does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[15,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[16,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[17,41] package org.elasticsearch.common.xcontent does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[18,41] package org.elasticsearch.common.xcontent does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[9,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[10,2] cannot find symbol
+  symbol: class Table
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[7,2] cannot find symbol
+  symbol: class Entity
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[8,2] cannot find symbol
+  symbol: class Table
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[4,1] package jakarta.persistence does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[3,1] package jakarta.persistence does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[8,51] package org.springframework.security.core.authority does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[20,48] cannot find symbol
+  symbol: class UserDetailsService
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[27,12] cannot find symbol
+  symbol:   class UserDetails
+  location: class com.visualpathit.account.service.UserDetailsServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[27,73] cannot find symbol
+  symbol:   class UsernameNotFoundException
+  location: class com.visualpathit.account.service.UserDetailsServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[3,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[4,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[8,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[6,23] package org.apache.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[7,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[8,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[9,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[25,19] cannot find symbol
+  symbol:   class RestHighLevelClient
+  location: class com.visualpathit.account.utils.ElasticsearchUtil
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[3,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[4,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[12,73] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[18,49] cannot find symbol
+  symbol:   class BadCredentialsException
+  location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[18,77] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[24,56] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[3,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[4,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[5,41] package org.springframework.security.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[6,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[10,51] cannot find symbol
+  symbol: class SimpleUrlAuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[13,41] cannot find symbol
+  symbol:   class HttpServletRequest
+  location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[13,69] cannot find symbol
+  symbol:   class HttpServletResponse
+  location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[14,41] cannot find symbol
+  symbol:   class AuthenticationException
+  location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[13,25] package net.spy.memcached does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[60,19] cannot find symbol
+  symbol:   class MemcachedClient
+  location: class com.visualpathit.account.utils.MemcachedUtils
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[105,19] cannot find symbol
+  symbol:   class MemcachedClient
+  location: class com.visualpathit.account.utils.MemcachedUtils
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[3,37] package org.springframework.amqp.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[4,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[5,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[6,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[7,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/UserController.java:[15,24] package javax.validation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/RabbitMqController.java:[8,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/RabbitMqController.java:[9,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[8,49] package org.springframework.security.core.context does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[16,13] cannot find symbol
+  symbol:   class AuthenticationManager
+  location: class com.visualpathit.account.service.SecurityServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[19,13] cannot find symbol
+  symbol:   class UserDetailsService
+  location: class com.visualpathit.account.service.SecurityServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserServiceImpl.java:[8,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserServiceImpl.java:[25,13] cannot find symbol
+  symbol:   class BCryptPasswordEncoder
+  location: class com.visualpathit.account.service.UserServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[46,6] cannot find symbol
+  symbol:   class Id
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[47,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[47,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[90,10] cannot find symbol
+  symbol:   class Transient
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[102,6] cannot find symbol
+  symbol:   class ManyToMany
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,6] cannot find symbol
+  symbol:   class JoinTable
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,51] cannot find symbol
+  symbol:   class JoinColumn
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,103] cannot find symbol
+  symbol:   class JoinColumn
+  location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[17,6] cannot find symbol
+  symbol:   class Id
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[18,6] cannot find symbol
+  symbol:   class GeneratedValue
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[18,32] cannot find symbol
+  symbol:   variable GenerationType
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,6] cannot find symbol
+  symbol:   class ManyToMany
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,25] cannot find symbol
+  symbol:   variable FetchType
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,71] cannot find symbol
+  symbol:   variable CascadeType
+  location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[17,23] cannot find symbol
+  symbol:   class BadCredentialsException
+  location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,6] cannot find symbol
+  symbol:   class RabbitListener
+  location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,33] cannot find symbol
+  symbol:   class QueueBinding
+  location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,56] cannot find symbol
+  symbol:   class Queue
+  location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[24,25] cannot find symbol
+  symbol:   class Exchange
+  location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[24,64] cannot find symbol
+  symbol:   variable ExchangeTypes
+  location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/UserController.java:[41,61] cannot find symbol
+  symbol:   class Valid
+  location: class com.visualpathit.account.controller.UserController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[40,14] cannot find symbol
+  symbol:   class RestHighLevelClient
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[42,17] cannot find symbol
+  symbol:   class IndexRequest
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[42,49] cannot find symbol
+  symbol:   class IndexRequest
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[43,33] cannot find symbol
+  symbol:   variable XContentFactory
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[54,17] cannot find symbol
+  symbol:   class IndexResponse
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[54,69] cannot find symbol
+  symbol:   variable RequestOptions
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[66,14] cannot find symbol
+  symbol:   class RestHighLevelClient
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[67,13] cannot find symbol
+  symbol:   class GetRequest
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[67,41] cannot find symbol
+  symbol:   class GetRequest
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[68,13] cannot find symbol
+  symbol:   class GetResponse
+  location: class com.visualpathit.account.controller.ElasticSearchController
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.627 s
+[INFO] Finished at: 2026-05-24T18:29:36+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project vprofile: Compilation failure: Compilation failure: 
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[6,23] package org.apache.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[7,39] package org.elasticsearch.action.delete does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[8,39] package org.elasticsearch.action.delete does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[9,36] package org.elasticsearch.action.get does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[10,36] package org.elasticsearch.action.get does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[11,38] package org.elasticsearch.action.index does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[12,38] package org.elasticsearch.action.index does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[13,39] package org.elasticsearch.action.update does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[14,39] package org.elasticsearch.action.update does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[15,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[16,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[17,41] package org.elasticsearch.common.xcontent does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[18,41] package org.elasticsearch.common.xcontent does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[9,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[10,2] cannot find symbol
+[ERROR]   symbol: class Table
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[7,2] cannot find symbol
+[ERROR]   symbol: class Entity
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[8,2] cannot find symbol
+[ERROR]   symbol: class Table
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[4,1] package jakarta.persistence does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[3,1] package jakarta.persistence does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[7,41] package org.springframework.security.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[8,51] package org.springframework.security.core.authority does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[11,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[20,48] cannot find symbol
+[ERROR]   symbol: class UserDetailsService
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[27,12] cannot find symbol
+[ERROR]   symbol:   class UserDetails
+[ERROR]   location: class com.visualpathit.account.service.UserDetailsServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java:[27,73] cannot find symbol
+[ERROR]   symbol:   class UsernameNotFoundException
+[ERROR]   location: class com.visualpathit.account.service.UserDetailsServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[3,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[4,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ProducerServiceImpl.java:[8,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[6,23] package org.apache.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[7,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[8,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[9,32] package org.elasticsearch.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/ElasticsearchUtil.java:[25,19] cannot find symbol
+[ERROR]   symbol:   class RestHighLevelClient
+[ERROR]   location: class com.visualpathit.account.utils.ElasticsearchUtil
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[3,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[4,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[12,73] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[18,49] cannot find symbol
+[ERROR]   symbol:   class BadCredentialsException
+[ERROR]   location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[18,77] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[24,56] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[3,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[4,28] package jakarta.servlet.http does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[5,41] package org.springframework.security.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[6,55] package org.springframework.security.web.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[10,51] cannot find symbol
+[ERROR]   symbol: class SimpleUrlAuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[13,41] cannot find symbol
+[ERROR]   symbol:   class HttpServletRequest
+[ERROR]   location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[13,69] cannot find symbol
+[ERROR]   symbol:   class HttpServletResponse
+[ERROR]   location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/AuthenticationFailureHandler.java:[14,41] cannot find symbol
+[ERROR]   symbol:   class AuthenticationException
+[ERROR]   location: class com.visualpathit.account.AuthenticationFailureHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[13,25] package net.spy.memcached does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[60,19] cannot find symbol
+[ERROR]   symbol:   class MemcachedClient
+[ERROR]   location: class com.visualpathit.account.utils.MemcachedUtils
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/utils/MemcachedUtils.java:[105,19] cannot find symbol
+[ERROR]   symbol:   class MemcachedClient
+[ERROR]   location: class com.visualpathit.account.utils.MemcachedUtils
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[3,37] package org.springframework.amqp.core does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[4,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[5,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[6,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[7,50] package org.springframework.amqp.rabbit.annotation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/UserController.java:[15,24] package javax.validation does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/RabbitMqController.java:[8,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/RabbitMqController.java:[9,27] package com.rabbitmq.client does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[6,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[7,51] package org.springframework.security.authentication does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[8,49] package org.springframework.security.core.context does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[9,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[10,53] package org.springframework.security.core.userdetails does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[16,13] cannot find symbol
+[ERROR]   symbol:   class AuthenticationManager
+[ERROR]   location: class com.visualpathit.account.service.SecurityServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java:[19,13] cannot find symbol
+[ERROR]   symbol:   class UserDetailsService
+[ERROR]   location: class com.visualpathit.account.service.SecurityServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserServiceImpl.java:[8,50] package org.springframework.security.crypto.bcrypt does not exist
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/UserServiceImpl.java:[25,13] cannot find symbol
+[ERROR]   symbol:   class BCryptPasswordEncoder
+[ERROR]   location: class com.visualpathit.account.service.UserServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[46,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[47,6] cannot find symbol
+[ERROR]   symbol:   class GeneratedValue
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[47,32] cannot find symbol
+[ERROR]   symbol:   variable GenerationType
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[90,10] cannot find symbol
+[ERROR]   symbol:   class Transient
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[102,6] cannot find symbol
+[ERROR]   symbol:   class ManyToMany
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,6] cannot find symbol
+[ERROR]   symbol:   class JoinTable
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,51] cannot find symbol
+[ERROR]   symbol:   class JoinColumn
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/User.java:[103,103] cannot find symbol
+[ERROR]   symbol:   class JoinColumn
+[ERROR]   location: class com.visualpathit.account.model.User
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[17,6] cannot find symbol
+[ERROR]   symbol:   class Id
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[18,6] cannot find symbol
+[ERROR]   symbol:   class GeneratedValue
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[18,32] cannot find symbol
+[ERROR]   symbol:   variable GenerationType
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,6] cannot find symbol
+[ERROR]   symbol:   class ManyToMany
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,25] cannot find symbol
+[ERROR]   symbol:   variable FetchType
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/model/Role.java:[42,71] cannot find symbol
+[ERROR]   symbol:   variable CascadeType
+[ERROR]   location: class com.visualpathit.account.model.Role
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/GlobalExceptionHandler.java:[17,23] cannot find symbol
+[ERROR]   symbol:   class BadCredentialsException
+[ERROR]   location: class com.visualpathit.account.GlobalExceptionHandler
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,6] cannot find symbol
+[ERROR]   symbol:   class RabbitListener
+[ERROR]   location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,33] cannot find symbol
+[ERROR]   symbol:   class QueueBinding
+[ERROR]   location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[23,56] cannot find symbol
+[ERROR]   symbol:   class Queue
+[ERROR]   location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[24,25] cannot find symbol
+[ERROR]   symbol:   class Exchange
+[ERROR]   location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/service/ConsumerServiceImpl.java:[24,64] cannot find symbol
+[ERROR]   symbol:   variable ExchangeTypes
+[ERROR]   location: class com.visualpathit.account.service.ConsumerServiceImpl
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/UserController.java:[41,61] cannot find symbol
+[ERROR]   symbol:   class Valid
+[ERROR]   location: class com.visualpathit.account.controller.UserController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[40,14] cannot find symbol
+[ERROR]   symbol:   class RestHighLevelClient
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[42,17] cannot find symbol
+[ERROR]   symbol:   class IndexRequest
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[42,49] cannot find symbol
+[ERROR]   symbol:   class IndexRequest
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[43,33] cannot find symbol
+[ERROR]   symbol:   variable XContentFactory
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[54,17] cannot find symbol
+[ERROR]   symbol:   class IndexResponse
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[54,69] cannot find symbol
+[ERROR]   symbol:   variable RequestOptions
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[66,14] cannot find symbol
+[ERROR]   symbol:   class RestHighLevelClient
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[67,13] cannot find symbol
+[ERROR]   symbol:   class GetRequest
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[67,41] cannot find symbol
+[ERROR]   symbol:   class GetRequest
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] /E:/vprofile-project/src/main/java/com/visualpathit/account/controller/ElasticSearchController.java:[68,13] cannot find symbol
+[ERROR]   symbol:   class GetResponse
+[ERROR]   location: class com.visualpathit.account.controller.ElasticSearchController
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
